@@ -1,0 +1,179 @@
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  header {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .logo {
+    padding: 10px;
+  }
+
+  .header-left {
+    justify-content: center;
+  }
+
+  .header-address {
+    padding: 10px;
+  }
+
+  .header-address h3 {
+    font-size: 15px;
+  }
+
+  .header-address p {
+    font-size: 12px;
+  }
+
+  .search-box button {
+    padding: 10px;
+  }
+
+  .login-cart {
+    position: fixed;
+    width: 100%;
+    background: white;
+    bottom: 0;
+    justify-content: center;
+    margin-right: 0;
+  }
+
+  .banner {
+    display: none;
+  }
+
+  .order-banner {
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .categories-item {
+    flex-basis: 25%;
+  }
+
+  .product-section {
+    padding: 30px 10px;
+  }
+
+  .product-item {
+    flex-basis: 49%;
+  }
+
+  .footer {
+    padding-top: 0px;
+  }
+
+  .footer-mid-row1 {
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .useful-links ul li a {
+    font-size: 12px;
+  }
+
+  .footer-mid-row2 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .social-links {
+    margin-left: 0px;
+  }
+
+  .footer-mid-row3 {
+    padding: 0px 10px;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 995px) {
+  header {
+    gap: 10px;
+    padding: 0px 20px;
+  }
+
+  .logo {
+    padding: 20px 10px;
+  }
+
+  .header-address {
+    padding: 0px 5px;
+  }
+
+  .header-address h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .header-address p {
+    font-size: 12px;
+  }
+
+  .search-box button {
+    padding: 10px;
+  }
+
+  .login-cart {
+    margin-right: 0;
+    gap: 5px;
+  }
+
+  .login-cart button {
+    padding: 8px;
+    font-size: 14px;
+    margin: 0;
+  }
+
+  .order-banner {
+    flex-wrap: wrap;
+  }
+
+  .order-banner-item {
+    flex-basis: 48%;
+  }
+
+  .categories-item {
+    flex-basis: 20%;
+  }
+
+  .product-section {
+    padding: 10px 10px;
+  }
+
+  .product-row {
+    margin: 15px 0px 0px 0px;
+  }
+
+  .product-item {
+    flex-basis: 32%;
+    margin-bottom: 10px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+
+  .footer-mid-row1 {
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .footer-mid-row2 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-mid-row2 {
+    padding: 10px 0px;
+  }
+
+  .footer-mid-row3 {
+    text-align: center;
+  }
+
+  .social-links {
+    margin-left: 0;
+  }
+}
